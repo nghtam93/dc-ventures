@@ -1,0 +1,137 @@
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	max-width:100%;
+	z-index: 10;
+	transition: background .3s;
+	.container{
+		max-width: 100%;
+		padding: 0 50px;
+	}
+	&.is-active{
+		background: #fff;
+		box-shadow: 0px 0px 5px #dadada;
+		// animation:stuckMoveDown .6s;
+		.logo {
+		    padding: 5px 0;
+		}
+		a{
+			color: #242424;
+		}
+	}
+	.logo{
+		padding: 20px 0;
+		margin-bottom: 0;
+		transition: all .5s;
+		img{
+			max-height: 70px;
+		}
+	}
+	.btn-contact{
+        position:relative;
+        border: 0;
+
+        background: linear-gradient(90deg, #EF4738 1.59%, #FBAF43 100%);
+        border-radius: 3px;
+
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff;
+        transition:all .5s;
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 10%;
+            height: 100%;
+            opacity: 0;
+            border-radius: inherit;
+            background: linear-gradient(90deg, #EF4738 1.59%, #FBAF43 100%);
+            transition: all 0.5s;
+        }
+
+        min-width: 100px;
+        font-size: 14px;
+        line-height: 17px;
+        padding: 8px 16px;
+        margin-left: 32px;
+        a{
+            padding: 0!important;
+            position: relative;
+            color: #fff!important;
+        }
+        &:hover{
+            color: #fff;
+            &:before {
+                opacity: 1;
+                width: 100%;
+            }
+        }
+    }
+
+	@media (max-width: 1199px){
+		.container {
+		    padding-right: var(--bs-gutter-x, 0.75rem);
+		    padding-left: var(--bs-gutter-x, 0.75rem);
+		}
+		.logo{
+			padding:15px 0;
+			img {
+			    max-height: 42px;
+			}
+		}
+
+
+	}
+	@media (max-width: 991px){
+		.logo {
+		    flex-grow: 1;
+		    img{
+		    	max-height: 46px;
+		    }
+		}
+	}
+
+	@media (max-width: 575px){
+		.logo{
+			padding: 10px 0;
+		}
+		&.is-active .logo {
+		    padding: 10px 0;
+		}
+	}
+}
+@keyframes stuckMoveDown{
+    0%{transform:translateY(-100%)}
+    100%{transform:translateY(0)}
+}
+
+/* Fix WP*/
+.admin-bar{
+	.header.-fix, .nav__mobile{
+	    top: 32px;
+	}
+	@media (max-width: 782px) {
+	    .header.-fix, .nav__mobile{
+	        top: 46px;
+	    }
+	}
+	@media (max-width: 767px) {
+	    .header.-fix{
+	        top: 0;
+	    }
+	    #wpadminbar{
+	        display: none;
+	    }
+	}
+}
+
+.wpcf7-spinner {
+    position: absolute;
+    top: 19px;
+    right: 0;
+}
