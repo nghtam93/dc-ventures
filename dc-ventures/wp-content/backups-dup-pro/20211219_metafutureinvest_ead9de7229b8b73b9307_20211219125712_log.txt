@@ -1,0 +1,287 @@
+********************************************************************************
+DUPLICATOR PRO PACKAGE-LOG: 2021-12-19 12:57:59
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	3.8.7
+WORDPRESS:	5.8.2
+PHP INFO:	7.3.9 | SAPI: apache2handler
+SERVER:		Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.9 
+ARCHITECTURE:	64-bit 
+CLIENT KICKOFF: off 
+PHP TIME LIMIT: [7200] not allowed 
+PHP MAX MEMORY: 4294967296 (900M default) 
+RUN TYPE:	Manual
+MEMORY STACK:	6MB
+ARCHIVE ENGINE: DupArchive
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP + CHUNKING (chunk size - 500 rows)
+
+TABLES: total: 25 | filtered:0 | create:25
+SCHEMA SIZE: [3325952]
+SQL CREATED: 20211219_metafutureinvest_ead9de7229b8b73b9307_20211219125712_database.sql
+SQL FILE SIZE: 915.85KB
+SQL FILE TIME: 2021-12-19 12:58:12
+SQL RUNTIME: 11.759 sec.
+MEMORY STACK: 18MB
+
+********************************************************************************
+ARCHIVE Type=DUP Mode=DupArchive
+********************************************************************************
+ARCHIVE DIR:  D:/xampp/htdocs/wp/dc-ventures
+ARCHIVE FILE: 20211219_metafutureinvest_ead9de7229b8b73b9307_20211219125712_archive.daf
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	138.47MB
+STATS:	Dirs 884 | Files 6,471 | Total 7,355
+DB INFO IN CREATE ARCHIV CONFIG
+DUP_PRO_DatabaseInfo Object
+(
+    [buildMode] => PHPCHUNKING
+    [charSetList] => Array
+        (
+            [0] => utf8mb4
+            [1] => latin1
+        )
+
+    [collationList] => Array
+        (
+            [0] => utf8mb4_unicode_ci
+            [1] => latin1_swedish_ci
+        )
+
+    [isTablesUpperCase] => 0
+    [isNameUpperCase] => 0
+    [name] => tam_dc-ventures
+    [tablesBaseCount] => 25
+    [tablesFinalCount] => 25
+    [tablesRowCount] => 3275
+    [tablesSizeOnDisk] => 3325952
+    [tablesList] => Array
+        (
+            [wpz_actionscheduler_actions] => stdClass Object
+                (
+                    [rows] => 2
+                    [size] => 131072
+                )
+
+            [wpz_actionscheduler_claims] => stdClass Object
+                (
+                    [rows] => 0
+                    [size] => 32768
+                )
+
+            [wpz_actionscheduler_groups] => stdClass Object
+                (
+                    [rows] => 1
+                    [size] => 32768
+                )
+
+            [wpz_actionscheduler_logs] => stdClass Object
+                (
+                    [rows] => 6
+                    [size] => 49152
+                )
+
+            [wpz_commentmeta] => stdClass Object
+                (
+                    [rows] => 0
+                    [size] => 49152
+                )
+
+            [wpz_comments] => stdClass Object
+                (
+                    [rows] => 0
+                    [size] => 98304
+                )
+
+            [wpz_duplicator_pro_entities] => stdClass Object
+                (
+                    [rows] => 6
+                    [size] => 32768
+                )
+
+            [wpz_duplicator_pro_packages] => stdClass Object
+                (
+                    [rows] => 0
+                    [size] => 32768
+                )
+
+            [wpz_links] => stdClass Object
+                (
+                    [rows] => 0
+                    [size] => 32768
+                )
+
+            [wpz_newsletter] => stdClass Object
+                (
+                    [rows] => 2
+                    [size] => 49152
+                )
+
+            [wpz_newsletter_emails] => stdClass Object
+                (
+                    [rows] => 0
+                    [size] => 16384
+                )
+
+            [wpz_newsletter_sent] => stdClass Object
+                (
+                    [rows] => 0
+                    [size] => 49152
+                )
+
+            [wpz_newsletter_stats] => stdClass Object
+                (
+                    [rows] => 0
+                    [size] => 49152
+                )
+
+            [wpz_newsletter_user_logs] => stdClass Object
+                (
+                    [rows] => 1
+                    [size] => 16384
+                )
+
+            [wpz_options] => stdClass Object
+                (
+                    [rows] => 259
+                    [size] => 245760
+                )
+
+            [wpz_postmeta] => stdClass Object
+                (
+                    [rows] => 2,481
+                    [size] => 573440
+                )
+
+            [wpz_posts] => stdClass Object
+                (
+                    [rows] => 273
+                    [size] => 1490944
+                )
+
+            [wpz_rank_math_internal_links] => stdClass Object
+                (
+                    [rows] => 99
+                    [size] => 32768
+                )
+
+            [wpz_rank_math_internal_meta] => stdClass Object
+                (
+                    [rows] => 40
+                    [size] => 16384
+                )
+
+            [wpz_term_relationships] => stdClass Object
+                (
+                    [rows] => 43
+                    [size] => 32768
+                )
+
+            [wpz_term_taxonomy] => stdClass Object
+                (
+                    [rows] => 12
+                    [size] => 49152
+                )
+
+            [wpz_termmeta] => stdClass Object
+                (
+                    [rows] => 0
+                    [size] => 49152
+                )
+
+            [wpz_terms] => stdClass Object
+                (
+                    [rows] => 12
+                    [size] => 49152
+                )
+
+            [wpz_usermeta] => stdClass Object
+                (
+                    [rows] => 37
+                    [size] => 49152
+                )
+
+            [wpz_users] => stdClass Object
+                (
+                    [rows] => 1
+                    [size] => 65536
+                )
+
+        )
+
+    [varLowerCaseTables] => 1
+    [version] => 10.1.22
+    [versionComment] => mariadb.org binary distribution
+    [tableWiseRowCounts] => Array
+        (
+            [wpz_actionscheduler_actions] => 2
+            [wpz_actionscheduler_claims] => 0
+            [wpz_actionscheduler_groups] => 1
+            [wpz_actionscheduler_logs] => 6
+            [wpz_commentmeta] => 0
+            [wpz_comments] => 0
+            [wpz_duplicator_pro_entities] => 6
+            [wpz_duplicator_pro_packages] => 1
+            [wpz_links] => 0
+            [wpz_newsletter] => 2
+            [wpz_newsletter_emails] => 0
+            [wpz_newsletter_sent] => 0
+            [wpz_newsletter_stats] => 0
+            [wpz_newsletter_user_logs] => 1
+            [wpz_options] => 259
+            [wpz_postmeta] => 2501
+            [wpz_posts] => 337
+            [wpz_rank_math_internal_links] => 99
+            [wpz_rank_math_internal_meta] => 40
+            [wpz_term_relationships] => 43
+            [wpz_term_taxonomy] => 12
+            [wpz_termmeta] => 0
+            [wpz_terms] => 12
+            [wpz_usermeta] => 37
+            [wpz_users] => 1
+        )
+
+    [intFieldsStruct:DUP_PRO_DatabaseInfo:private] => Array
+        (
+        )
+
+    [indexProcessedSchemaSize:DUP_PRO_DatabaseInfo:private] => Array
+        (
+        )
+
+)
+
+COMPRESSED SIZE: 74.82MB
+ARCHIVE RUNTIME: 73.972 sec.
+MEMORY STACK: 8MB
+CREATE WARNINGS: No warnings.
+VALIDATION WARNINGS: No warnings.
+
+********************************************************************************
+STORAGE:
+********************************************************************************
+LOCAL: Default, D:/xampp/htdocs/wp/dc-ventures/wp-content/backups-dup-pro
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 915.85KB
+INSTALLER FILE: 87.78KB
+ARCHIVE FILE: 74.82MB 
+EXPECTED FILE/DIRECTORY COUNT: 7,355
+ACTUAL FILE/DIRECTORY COUNT: 7,355
+
+********************************************************************************
+RECORD ID:[4]
+TOTAL PROCESS RUNTIME: 75.133 sec.
+PEAK PHP MEMORY USED: 10MB
+DONE PROCESSING => 20211219_metafutureinvest 2021-12-19 12:59:14
+
